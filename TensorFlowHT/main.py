@@ -10,7 +10,7 @@ cap = cv2.VideoCapture(0)
 hands = mp.solutions.hands.Hands(max_num_hands=1)
 
 classes = ['A','B','C','D','E','F']
-model = load_model('keras_model.h5')
+model = load_model('C:\programacao\Python\TensorFlowHT\Python\TensorFlowHT\model.h5')
 data = np.ndarray(shape=(1, 224, 224, 3), dtype=np.float32)
 
 while True:
